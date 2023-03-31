@@ -1,0 +1,38 @@
+Запрос 1: Сотрудника с максимальной заработной платой.
+
+SELECT *
+FROM EMPLOYEE
+WHERE SALARY = (
+  SELECT MAX(SALARY) FROM EMPLOYEE
+);
+
+
+Запрос 2: Максимальную длину цепочки руководителей по таблице сотрудников (вычислить глубину дерева).
+
+WITH RECURSIVE CTE AS (
+  SELECT ID, CHIEF_ID, 1 AS LEVEL
+  FROM EMPLOYEE
+  WHERE CHIEF_ID IS NULL
+  UNION ALL
+  SELECT e.ID, e.CHIEF_ID, c.LEVEL + 1 AS LEVEL
+  FROM EMPLOYEE e
+  JOIN CTE c ON e.CHIEF_ID = c.ID
+)
+SELECT MAX(LEVEL) FROM CTE;
+
+
+Запрос 3: Отдел, с максимальной суммарной зарплатой сотрудников.
+
+SELECT d.NAME, SUM(e.SALARY) AS TOTAL_SALARY
+FROM EMPLOYEE e
+JOIN DEPARTMENT d ON e.DEPARTMENT_ID = d.ID
+GROUP BY d.NAME
+ORDER BY TOTAL_SALARY DESC
+FETCH FIRST 1 ROW ONLY;
+
+
+Запрос 4: Сотрудника, чье имя начинается на «Р» и заканчивается на «н».
+
+SELECT *
+FROM EMPLOYEE
+WHERE NAME LIKE 'Р%н';
