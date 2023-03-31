@@ -1,0 +1,15 @@
+E:\MyProjects\WarAndPeace\WarAndPeace\bin\Debug\net6.0\WarAndPeace.exe
+E:\MyProjects\WarAndPeace\WarAndPeace\bin\Debug\net6.0\WarAndPeace.deps.json
+E:\MyProjects\WarAndPeace\WarAndPeace\bin\Debug\net6.0\WarAndPeace.runtimeconfig.json
+E:\MyProjects\WarAndPeace\WarAndPeace\bin\Debug\net6.0\WarAndPeace.dll
+E:\MyProjects\WarAndPeace\WarAndPeace\bin\Debug\net6.0\WarAndPeace.pdb
+E:\MyProjects\WarAndPeace\WarAndPeace\obj\Debug\net6.0\WarAndPeace.csproj.AssemblyReference.cache
+E:\MyProjects\WarAndPeace\WarAndPeace\obj\Debug\net6.0\WarAndPeace.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProjects\WarAndPeace\WarAndPeace\obj\Debug\net6.0\WarAndPeace.AssemblyInfoInputs.cache
+E:\MyProjects\WarAndPeace\WarAndPeace\obj\Debug\net6.0\WarAndPeace.AssemblyInfo.cs
+E:\MyProjects\WarAndPeace\WarAndPeace\obj\Debug\net6.0\WarAndPeace.csproj.CoreCompileInputs.cache
+E:\MyProjects\WarAndPeace\WarAndPeace\obj\Debug\net6.0\WarAndPeace.dll
+E:\MyProjects\WarAndPeace\WarAndPeace\obj\Debug\net6.0\refint\WarAndPeace.dll
+E:\MyProjects\WarAndPeace\WarAndPeace\obj\Debug\net6.0\WarAndPeace.pdb
+E:\MyProjects\WarAndPeace\WarAndPeace\obj\Debug\net6.0\WarAndPeace.genruntimeconfig.cache
+E:\MyProjects\WarAndPeace\WarAndPeace\obj\Debug\net6.0\ref\WarAndPeace.dll
